@@ -1,0 +1,17 @@
+[package]
+name = "exex-scroll-indexer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy-sol-types = "0.7.4"
+eyre = "0.6.12"
+futures = "0.3.30"
+reth = { git = "https://github.com/paradigmxyz/reth", tag = "v0.2.0-beta.7" }
+reth-exex = { git = "https://github.com/paradigmxyz/reth", tag = "v0.2.0-beta.7" }
+reth-node-api = { git = "https://github.com/paradigmxyz/reth", tag = "v0.2.0-beta.7" }
+reth-node-ethereum = { git = "https://github.com/paradigmxyz/reth", tag = "v0.2.0-beta.7" }
+reth-primitives = { git = "https://github.com/paradigmxyz/reth", tag = "v0.2.0-beta.7" }
+reth-provider = { git = "https://github.com/paradigmxyz/reth", tag = "v0.2.0-beta.7" }
+reth-tracing = { git = "https://github.com/paradigmxyz/reth", tag = "v0.2.0-beta.7" }
+rusqlite = "0.31.0"
